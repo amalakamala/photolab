@@ -118,12 +118,16 @@ header{
 	background-image: url('../img/bg2.jpg');
 	width: 100%;
    	height: 600px;
-
    	.subscribe-text{
    		color: #FFF;
    		h5{
 			font-family: 'Fredoka One', cursive;
    		}
+   	}
+   	.el-input{
+   		background-color: #FFF;
+   		padding: 5px 15px;
+   		border-radius: 6px;
    	}
 }
 
@@ -168,9 +172,7 @@ footer{
 	}
 }
 
-
-
-
+/*MEDIA*/
 @media (max-width: 992px){
 	header{
 		nav{
@@ -188,7 +190,21 @@ footer{
 		}
 	}
 	.simple-photo{
-		margin-top: 100px;
+		padding-left: 0;
+		position:relative;
+		margin-top: 95px;
+		.text-simple-photo{
+			padding: 50px 40px;	
+		}
+		.img-mano{
+			padding-left:0;
+			img{
+			width: 100%;
+			height:auto;
+			background-size: 100%;
+			z-index:5;			
+			}
+		}
 	}
 	.design{
 		padding: 50px 40px ;
