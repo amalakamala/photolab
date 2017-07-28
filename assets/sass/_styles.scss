@@ -127,6 +127,20 @@ footer{
 	}
 }
 
+.download{
+	padding: 50px 40px;	
+	background-color: #F2F4F6;
+	.text-download{
+		h6{
+			font-family: 'Fredoka One', cursive;
+			font-size: 14px;
+    		letter-spacing: 6px;
+    		line-height: 30px;
+		}		
+	}	
+}
+
+
 @media (max-width: 992px){
 	header{
 		nav{
