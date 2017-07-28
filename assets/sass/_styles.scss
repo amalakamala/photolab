@@ -66,6 +66,9 @@ header{
 	background-color: #FFF;
 	padding: 50px 40px 0;
 	margin-bottom:0;
+	.row{
+		margin-bottom: 0; 
+	}
 	.text-design{
 		h5{
 			font-family: 'Fredoka One', cursive;
@@ -157,8 +160,18 @@ footer{
 	    	}
 		}
 	}
-
 	.simple-photo{
 		margin-top: 100px;
 	}
+	.design{
+		padding: 50px 40px ;
+	}
+
+
+	.download{
+		.btn-d{
+			margin-bottom: 10px;
+		}	
+	}
+
 }
